@@ -108,7 +108,7 @@ def main():
         maze.solve()
 
     if not args.name:
-        args.name = 'test'
+        args.name = 'assets/test'
     if args.text:
         maze.save_maze(args.name + '.txt')
         print('Лабиринт сохранен в текстовом файле', args.name + '.txt')
